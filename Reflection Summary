@@ -1,0 +1,4 @@
+Inspecting metadata of the assembly at the runtime.
+Assembly consist of 2 parts Intermedaite language and the metadata
+Metadata contains information like the classes in the Reflection and its members.
+Reflection also uses LateBinding which basicly means that the binding which occurs at RunTime. There might be reasons that the assemble is not available at compile time so in that case creating an instance of a class at Runtime is LateBinding.
